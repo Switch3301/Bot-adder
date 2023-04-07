@@ -17,5 +17,5 @@ This Python script allows you to add bots to Discord servers with ease.
 # Note
 This script may have the potential to terminate or disable your account, so use it wisely. I am not responsible for any harm or damage caused by this script. It is intended solely for guidance and educational purposes.
 
-#Contact
+# Contact
 If you have any questions or concerns, feel free to contact me on Discord (contact information to be added later).

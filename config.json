@@ -1,8 +1,8 @@
 {
     "locale":"pl-PL",
     "ua":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Mobile Safari/537.36",
-    "permission":"8",
-    "client-id":"1059141531329630228",
+    "permission":"0",
+    "client-id":"",
     "token":"",
-    "capsolverkey":"CAI-4C5D35BBA25CDFB1FA4717704916FEC7"
+    "capsolverkey":""
 }

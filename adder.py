@@ -74,37 +74,20 @@ def solve_hcaptcha():
 thread_lock = Lock()
 class Console():
     def success(message):
-        Lock().acquire()
         print(f"{Fore.LIGHTGREEN_EX}[{datetime.datetime.now().strftime('%H:%M:%S')}] {message}{Fore.RESET}")
-        try:
-            Lock().release()
-        except:
-            pass
+
     
     def error(message):
-        Lock().acquire()
         print(f"{Fore.LIGHTBLACK_EX}[{datetime.datetime.now().strftime('%H:%M:%S')}] {Fore.LIGHTRED_EX}{message}{Fore.RESET}")
-        try:
-            Lock().release()
-        except:
-            pass
+
 
     def info(message):
-        Lock().acquire()
         print(f"{Fore.LIGHTBLACK_EX}[{datetime.datetime.now().strftime('%H:%M:%S')}] {Fore.LIGHTBLUE_EX}{message}{Fore.RESET}")
-        try:
-            Lock().release()
-        except:
-            pass
+
 
     def warning(message):
-        Lock().acquire()
         print(f"{Fore.LIGHTBLACK_EX}[{datetime.datetime.now().strftime('%H:%M:%S')}] {Fore.LIGHTYELLOW_EX}{message}{Fore.RESET}")
-        try:
-            Lock().release()
-        except:
-            pass
-    
+
         
 def build_num() -> str:
     response = requests.get("https://discord.com/app")

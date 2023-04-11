@@ -51,7 +51,7 @@ def solve_hcaptcha():
         "taskId": task_id
     }
     while status != 'ready':
-        time.sleep(5)
+        time.sleep(2)
         try:
             response = requests.post(get_task_result_url, headers=headers, data=json.dumps(data))
             if response.status_code == 200:
